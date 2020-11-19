@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Within Reach</title>
+    <link rel="stylesheet" href="Organizer.css">
+</head>
+
+<body>
+
+    <div>
+        <form>
+            <h2>Log In</h2>
+            <label for="fname">First Name*:</label><br>
+            <input type="text" name="fname" value=""><br><br>
+            <label for="lname">Last Name*:</label><br>
+            <input type="text" name="lname" value=""><br><br>
+            <label for="email">Email Address</label><br>
+            <input type="email"name="email" required><br><br>
+            <label for="Phone no.">Phone no.*</label><br>
+            <input type="number" name="phone no." required><br><br>
+            <label for="Total Seats Capacity.">Total Seats Capacity*</label><br>
+            <input type="number" name="Total Seats Capacity"><br><br><br>
+            Fields marked with * are required<br><br>  
+            <input type="submit"><br><br><br>
+   
+         </form>
+         
+    </div>
+
+    <!-- <div style="width: 20%">
+        
+        New User
+            <a href="# Register"><STRONG>Register</STRONG></a>
+
+            <form class="newuser">
+                <h2>Register</h2>
+                <a>*Required Fields</a><br><br>
+                <label for="fname">First Name*:</label><br>
+                <input type="text" name="fname" value=""><br><br>
+                <label for="lname">Last Name*:</label><br>
+                <input type="text" name="lname" value=""><br><br>
+                <label for="Birthday">Birthday*</label> <br>
+                <input type="Birthday"  name="Birthday" required><br><br>
+                <label for="email">Email Address*</label><br>
+                <input type="email"name="email" required><br><br>
+                <label for="Phone no.">Phone no.*</label><br>
+                <input type="number" name="phone no." required><br><br><br>
+                
+                <input type="submit"><br><br><br>
+       
+             </form>
+    </div> -->
+  
+    <script src='organizer.js'  type="text/javascript">
+    // var clicks = 0;
+    // var Reamining = 100;
+    // function onClick() {
+    //     clicks += 1;
+    //     Remaining = Reamining - clicks;
+    //     document.getElementById("clicks").innerHTML = clicks;
+    //     document.getElementById("Remaining").innerHTML = Remaining;
+    //  };
+    </script>
+    
+<div>
+    <button type="button" onClick="onClick()"><p>Click me</p></button>
+    <p> <b>Seats Occupied:</b><a id="clicks">0</a></p>
+    <p> <b>Seats Remaining:</b> <a id="Remaining">100</a></p>
+</div>
+
+    <div style="width: 50%">
+        
+        <h2>New User<a href="Register"><STRONG>Register</STRONG></a>here</h2>
+
+            <div class="newuser">
+                <h2>Register</h2>
+                <a>*Required Fields</a><br><br>
+                <label for="fname">First Name*:</label><br>
+                <input type="text" name="fname" value=""><br><br>
+                <label for="lname">Last Name*:</label><br>
+                <input type="text" name="lname" value=""><br><br>
+                <label for="Birthday">Birthday*</label> <br>
+                <input type="Birthday"  name="Birthday" required><br><br>
+                <label for="email">Email Address*</label><br>
+                <input type="email"name="email" required><br><br>
+                <label for="Phone no.">Phone no.*</label><br>
+                <input type="number" name="phone no." required><br><br><br>
+                
+                <input onclick="login()" type="submit"><br><br><br>
+       
+            </div>
+    </div>
+
+
+</body>
+
+</html>
